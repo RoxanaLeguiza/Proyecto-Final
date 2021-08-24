@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popolitos Baby&Kids/contacto</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Flavors' rel='stylesheet'>
+</head>
+<body id="grilla">
+    <header class="encabezado">
+        <a href="index.html">
+        <img src="img/hippo.png" alt="logo" class="encabezado__logotipo">
+     </a>
+        <nav class="navegador">       
+            <ul class="navegador__lista">
+                <li><a href="bbniña.html" class="navegador">Bb NIÑA</a></li>
+                <li><a href="bbniño.html" class="navegador">Bb NIÑO</a></li>
+                <li><a href="niña.html" class="navegador">NIÑA</a></li>
+                <li><a href="niño.html" class="navegador">NIÑO</a></li>
+                <li><a href="contacto.html" class="navegador">CONTACTO</a></li>
+            </ul>
+       </nav>
+    </header>
+     <section class="seccion">
+         <h1 class="seccion__titulo">POPOLITOS BABYS & KIDS</h1>
+         <h2 class="seccion__subtitulo">CONTACTO</h2>
+         <img src="img/foto de chicos.jpg" alt="niños con ropa canchera"id="fototitulo" >
+         <h3 class="seccion__tituloform">COMPLETAR FORMULARIO</h3>
+         <form class="seccion__formulario" action=""method="POST"enctype="text/plain">
+            <fieldset class="seccion__contenedoruno">
+                <legend class="formulario__titulo">Informacion personal</legend>
+                <label class="formulario__item" for="nombre">nombre</label>
+                <input class="formulario__item"  id="nombre"type="text">
+                <label class="formulario__item"  for="apellido">apellido</label>
+                <input class="formulario__item" id="apellido"type="text">
+                <label class="formulario__item" for="mail">e-mail</label>
+                <input class="formulario__item" id="email"name="mail"placeholder="nombre@ejemplo.com">
+            </fieldset>
+            <fieldset class="seccion__contenedor">
+                <legend class="formulario__titulo">informacion</legend>
+                <label>Bbniña</label>
+                <input type="radio"name="sexo"value="Bbniña">
+                <label>Bbniño</label>
+                <input type="radio"name="sexo"value="Bbniño">
+                <label>Niña</label>
+                <input type="radio"name="sexo"value="Niña">
+                <label>Niño</label>
+                <input type="radio"name="sexo"value="Niño">
+                <Select name="talles">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </Select>
+            </fieldset>
+            <h3 class="formulario__subtitulo">Recomendaciones</h3>
+            <textarea rows="6" cols="6"></textarea>
+            <div class="formulario__checkbox">
+                <input type="checkbox" name="acepta" value="Acepta">
+                 <p>¿Desea recibir ofertas?</p>
+            </div>
+            <div class="formulario__boton">
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    <aside class="aside">
+        <h3 class="aside__contacto">CONTACTANOS</h3>
+         <P class="aside__contacto__mail">popolitosbaby&kids@gmail.com</P> 
+         <div class="aside__redes">
+            <div> 
+                <img src="img/icono facebook.png" alt="icono facebook" class="aside__logo">
+            </div>
+            <div>
+                <p>Popolitos Baby & Kids</p>
+            </div>
+            <div>
+                <img src="img/icono instagram.jpg" alt="icono instagram" class="aside__logo">
+            </div>
+            <div>
+                <p>popolitos Babys</p>
+            </div>
+            <div>
+                <img src="img/icono twitter.png" alt="icono twitter" class="aside__logo">
+            </div>
+            <div>
+                <p>@PopolitosBaby&Kids</p>
+            </div>
+        </div>
+    </aside>
+    <footer class="footer">
+        <p class="footer__derechos">2021 derechos reservados</p>
+    </footer>    
+</body>
+</html>
