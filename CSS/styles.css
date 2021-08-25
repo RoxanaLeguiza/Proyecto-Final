@@ -8,9 +8,16 @@
 body{
     background: rgb(248, 226, 229);
 }
+/*vuelvo sticky el head*/
+
+.encabezado{
+    position: sticky;
+    top: 0;
+}
 
 
 /*deja el logo pegado a la pantalla*/
+
 .encabezado__logotipo{
     width: 8%;
     height: 10%;
@@ -167,41 +174,6 @@ li{
     display: flex;
     flex-flow: row nowrap;
 
-}
-
-/*aplica grid template areas*/
-
-#grilla{
-    display: grid;
-    grid-template-areas:
-    "cabeza cabeza cabeza" 
-    "contacto contenido contenido"
-    "contacto contenido contenido"
-    "contacto derechos derechos"
-    ;
-}
-
-
-header{
-    grid-area: cabeza;
-    position: sticky;
-    top: 0;
-}
-
-
-section{
-    grid-area: contenido ;
-}
-
-
-aside{
-   grid-area: contacto;
-   width: 300px;
-
-}
-
-footer{
-  grid-area: derechos;
 }
 
 
