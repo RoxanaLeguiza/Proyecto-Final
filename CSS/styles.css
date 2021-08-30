@@ -6,21 +6,21 @@
 
 
 body{
-    background: rgb(248, 226, 229);
+    background: rgb(235, 239, 245);
 }
 /*vuelvo sticky el head*/
 
 .encabezado{
     position: sticky;
     top: 0;
+    
+   
 }
 
 
 /*deja el logo pegado a la pantalla*/
 
-.encabezado__logotipo{
-    width: 8%;
-    height: 10%;
+.encabezado__logotipo{ 
     position: fixed;
     top: 0px;
 }
@@ -30,8 +30,7 @@ body{
 .encabezdo navegador{
     display: flex;
     flex-flow: row nowrap;
-    
-   
+
 
 }
 
@@ -41,16 +40,16 @@ body{
     text-align: right;
     list-style-type: none;
     padding: 10px;
-    background-color: lightpink;
+    background-color: rgb(252, 252, 252);
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end
-    
+
  
 }
 
 a:visited{
-    color: blueviolet;
+    color: rgb(3, 128, 230);
 }
 
 a:hover{
@@ -67,7 +66,8 @@ a{
 li{ 
     color: thistle;
     padding: 40px;
-    display: inline-block;  
+    display: inline-block; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 
 }
 
@@ -75,10 +75,10 @@ li{
 
 .seccion__titulo{
     text-align: center;
-    color: blue;
+    color: rgb(2, 2, 56);
     font-weight: 400;
     font-size: 250%;
-    font-family: 'Flavors';
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 40px;
     animation-name: titulo;
     animation-iteration-count: 1;
@@ -88,7 +88,7 @@ li{
 
 
 #fototitulo{
-    width: 1000px;
+    width: 1400px;
     height: 400px;
     
    
@@ -190,13 +190,11 @@ li{
     padding: 10px;
     
 }
-
-.aside{
-    background-color: lightsalmon;
-    
+.footer{
+    background: lightsteelblue;
 }
 
-.aside__contacto{
+.footer__contacto{
     color: rgb(27, 16, 27);
     padding: 10px;
     font-size: 20px;
@@ -204,25 +202,23 @@ li{
     
 }
 
-.aside__contacto__mail{
+.footer__contacto__mail{
     color: rgb(27, 17, 27);
     padding: 10px;
     font-size: 20px;
 }
 
 
-.aside__logo{
-    width: 40%;
-    height: 60%;
+.footer__logo{
+    width: 20px;
+    height: 20px;
 }
 
 
-.aside__redes{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr;
+.footer__redes{
+    display: flex;
+    flex-flow: column;
     padding: 10px;
-    
 }
 
 .footer__derechos{
