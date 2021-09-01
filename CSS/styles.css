@@ -6,7 +6,7 @@
 
 
 body{
-    background: rgb(248, 226, 229);
+    background: rgb(227, 230, 235);
 }
 /*vuelvo sticky el head*/
 
@@ -19,8 +19,6 @@ body{
 /*deja el logo pegado a la pantalla*/
 
 .encabezado__logotipo{
-    width: 8%;
-    height: 10%;
     position: fixed;
     top: 0px;
 }
@@ -41,7 +39,7 @@ body{
     text-align: right;
     list-style-type: none;
     padding: 10px;
-    background-color: lightpink;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end
@@ -50,7 +48,7 @@ body{
 }
 
 a:visited{
-    color: blueviolet;
+    color: rgb(5, 39, 114);
 }
 
 a:hover{
@@ -88,7 +86,7 @@ li{
 
 
 #fototitulo{
-    width: 1000px;
+    width: 1400px;
     height: 400px;
     
    
@@ -191,12 +189,9 @@ li{
     
 }
 
-.aside{
-    background-color: lightsalmon;
     
-}
 
-.aside__contacto{
+.footer__contacto{
     color: rgb(27, 16, 27);
     padding: 10px;
     font-size: 20px;
@@ -204,25 +199,28 @@ li{
     
 }
 
-.aside__contacto__mail{
+.footer__contacto__mail{
     color: rgb(27, 17, 27);
     padding: 10px;
     font-size: 20px;
 }
 
 
-.aside__logo{
-    width: 40%;
-    height: 60%;
+.footer__logo{
+    width: 50px;
+    height: 60px;
 }
 
 
-.aside__redes{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    padding: 10px;
+.footer__redes{
+    display: flex;
+    flex-direction: column;
     
+   
+    
+}
+.footer{
+    background-color: lightblue;
 }
 
 .footer__derechos{
