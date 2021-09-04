@@ -6,13 +6,15 @@
 
 
 body{
-    background: rgb(227, 230, 235);
+    background-color: lightblue;
+    
 }
 /*vuelvo sticky el head*/
 
 .encabezado{
     position: sticky;
     top: 0;
+
 }
 
 
@@ -58,7 +60,7 @@ a:hover{
 /*sin subrayado*/
 a{
     text-decoration: none;
-    
+    font-family: 'Noto Sans TC', sans-serif;;
 }
 
 /*inline block pone los elementos de la lista horizontales*/
@@ -76,7 +78,7 @@ li{
     color: blue;
     font-weight: 400;
     font-size: 250%;
-    font-family: 'Flavors';
+    font-family: 'Noto Sans TC', sans-serif;;
     font-size: 40px;
     animation-name: titulo;
     animation-iteration-count: 1;
@@ -85,7 +87,7 @@ li{
 }
 
 
-#fototitulo{
+.seccion__imagen{
     width: 1400px;
     height: 400px;
     
@@ -120,6 +122,19 @@ li{
      font-family: 'Finger Paint';
      font-size: 22px;
 }
+
+
+.seccion__conjarticulo{
+    display: flex;
+    padding: 20px;
+}
+
+
+.seccion__articulo__1{
+    display: flex;
+    padding: 10px;
+}
+
 
 
 .seccion__articulo__contenido{
@@ -171,9 +186,9 @@ li{
 .seccionuno__articulo{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: flex-end;
 
 }
-
 
 .articulo__contenido__imagen{
     display: block;
@@ -181,6 +196,8 @@ li{
     margin-right: auto;
     width: 40%;
 }
+
+
 .item{
     color: black;
     font-weight: bold;
@@ -274,7 +291,10 @@ li{
     padding: 20px;
     margin: 10px;
 }
-
+.seccion__carrusel__imagen{
+    width: 800px;
+    height: 200;
+}
 
 .formulario__subtitulo{
     font-weight: bold;
@@ -322,4 +342,27 @@ li{
     }
 
 }
+
+/*mobile*/
+@media(min-width:1024px){
+    body{
+        background: rgb(227, 230, 235);
+    }
+
+}
+    
+
+    
+@media (min-width:481px) and (max-whith: 1023px) {
+      body{
+        background: rgb(143, 147, 153);
+      }
+      .encabezado{
+          width: 500px;
+      }
+
+
+}
+
+
 
