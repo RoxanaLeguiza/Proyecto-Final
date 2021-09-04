@@ -6,21 +6,34 @@
 
 
 body{
+<<<<<<< HEAD
     background: rgb(235, 239, 245);
+=======
+    background-color: lightblue;
+    
+>>>>>>> modificacion
 }
 /*vuelvo sticky el head*/
 
 .encabezado{
     position: sticky;
     top: 0;
+<<<<<<< HEAD
     
    
+=======
+
+>>>>>>> modificacion
 }
 
 
 /*deja el logo pegado a la pantalla*/
 
+<<<<<<< HEAD
 .encabezado__logotipo{ 
+=======
+.encabezado__logotipo{
+>>>>>>> modificacion
     position: fixed;
     top: 0px;
 }
@@ -40,7 +53,11 @@ body{
     text-align: right;
     list-style-type: none;
     padding: 10px;
+<<<<<<< HEAD
     background-color: rgb(252, 252, 252);
+=======
+    background-color: white;
+>>>>>>> modificacion
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end
@@ -49,7 +66,11 @@ body{
 }
 
 a:visited{
+<<<<<<< HEAD
     color: rgb(3, 128, 230);
+=======
+    color: rgb(5, 39, 114);
+>>>>>>> modificacion
 }
 
 a:hover{
@@ -59,7 +80,7 @@ a:hover{
 /*sin subrayado*/
 a{
     text-decoration: none;
-    
+    font-family: 'Noto Sans TC', sans-serif;;
 }
 
 /*inline block pone los elementos de la lista horizontales*/
@@ -78,7 +99,11 @@ li{
     color: rgb(2, 2, 56);
     font-weight: 400;
     font-size: 250%;
+<<<<<<< HEAD
     font-family: 'Noto Sans KR', sans-serif;
+=======
+    font-family: 'Noto Sans TC', sans-serif;;
+>>>>>>> modificacion
     font-size: 40px;
     animation-name: titulo;
     animation-iteration-count: 1;
@@ -87,7 +112,11 @@ li{
 }
 
 
+<<<<<<< HEAD
 #fototitulo{
+=======
+.seccion__imagen{
+>>>>>>> modificacion
     width: 1400px;
     height: 400px;
     
@@ -122,6 +151,19 @@ li{
      font-family: 'Finger Paint';
      font-size: 22px;
 }
+
+
+.seccion__conjarticulo{
+    display: flex;
+    padding: 20px;
+}
+
+
+.seccion__articulo__1{
+    display: flex;
+    padding: 10px;
+}
+
 
 
 .seccion__articulo__contenido{
@@ -173,9 +215,9 @@ li{
 .seccionuno__articulo{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: flex-end;
 
 }
-
 
 .articulo__contenido__imagen{
     display: block;
@@ -183,6 +225,8 @@ li{
     margin-right: auto;
     width: 40%;
 }
+
+
 .item{
     color: black;
     font-weight: bold;
@@ -190,9 +234,14 @@ li{
     padding: 10px;
     
 }
+<<<<<<< HEAD
 .footer{
     background: lightsteelblue;
 }
+=======
+
+    
+>>>>>>> modificacion
 
 .footer__contacto{
     color: rgb(27, 16, 27);
@@ -210,15 +259,30 @@ li{
 
 
 .footer__logo{
+<<<<<<< HEAD
     width: 20px;
     height: 20px;
+=======
+    width: 50px;
+    height: 60px;
+>>>>>>> modificacion
 }
 
 
 .footer__redes{
     display: flex;
+<<<<<<< HEAD
     flex-flow: column;
     padding: 10px;
+=======
+    flex-direction: column;
+    
+   
+    
+}
+.footer{
+    background-color: lightblue;
+>>>>>>> modificacion
 }
 
 .footer__derechos{
@@ -272,7 +336,10 @@ li{
     padding: 20px;
     margin: 10px;
 }
-
+.seccion__carrusel__imagen{
+    width: 800px;
+    height: 200;
+}
 
 .formulario__subtitulo{
     font-weight: bold;
@@ -320,4 +387,27 @@ li{
     }
 
 }
+
+/*mobile*/
+@media(min-width:1024px){
+    body{
+        background: rgb(227, 230, 235);
+    }
+
+}
+    
+
+    
+@media (min-width:481px) and (max-whith: 1023px) {
+      body{
+        background: rgb(143, 147, 153);
+      }
+      .encabezado{
+          width: 500px;
+      }
+
+
+}
+
+
 
