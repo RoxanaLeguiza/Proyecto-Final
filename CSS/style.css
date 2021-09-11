@@ -1,0 +1,26 @@
+.encabezado {
+  position: sticky;
+  top: 0; }
+  .encabezado .encabezado__navegador {
+    display: flex;
+    flex-flow: row nowrap; }
+    .encabezado .encabezado__navegador .navegador__lista {
+      text-align: right;
+      list-style-type: none;
+      padding: 10px;
+      background-color: white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end; }
+      .encabezado .encabezado__navegador .navegador__lista a {
+        text-decoration: none;
+        font-family: 'Noto Sans TC', sans-serif; }
+
+/*extend*/
+.footer__redes, .footer__redes--nuevo {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+
+.footer__redes--nuevo {
+  padding: 10px; }

@@ -26,7 +26,7 @@ body{
 
 
 
-.encabezdo navegador{
+.encabezdo__navegador{
     display: flex;
     flex-flow: row nowrap;
 
@@ -231,12 +231,12 @@ li{
 .footer__redes{
     display: flex;
     flex-direction: column;
-    
+    padding: 10px;
    
     
 }
 .footer{
-    background-color: lightblue;
+    background-color: rgb(197, 231, 243);
 }
 
 .footer__derechos{
@@ -252,7 +252,7 @@ li{
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    margin: 20px ;
+    margin: 20px;
 }
 
 
@@ -290,10 +290,7 @@ li{
     padding: 20px;
     margin: 10px;
 }
-.seccion__carrusel__imagen{
-    width: 800px;
-    height: 200;
-}
+
 
 .formulario__subtitulo{
     font-weight: bold;

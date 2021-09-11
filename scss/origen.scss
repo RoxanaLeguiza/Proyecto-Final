@@ -1,0 +1,31 @@
+.encabezado{
+    position: sticky;
+    top: 0;
+    .encabezado__navegador{
+        display: flex;
+        flex-flow: row nowrap;
+        .navegador__lista{
+            text-align: right;
+            list-style-type: none;
+            padding: 10px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap ;
+            justify-content: flex-end;
+            a{
+                text-decoration: none;
+                font-family: 'Noto Sans TC', sans-serif;;
+            }
+        }
+    }
+}
+/*extend*/
+.footer__redes{
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+}
+.footer__redes--nuevo{
+    @extend .footer__redes;
+    padding: 10px;
+}
