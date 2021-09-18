@@ -92,6 +92,8 @@ li{
     
    
 }
+
+
 .seccion{
     padding: 10px;
 }
@@ -196,11 +198,19 @@ li{
     width: 40%;
 }
 
-
 .item{
     color: black;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 120%;
+    
+
+}
+
+
+.item1{
+    color: black;
+    font-weight: bold;
+    font-size: 120%;
     padding: 10px;
     
 }
@@ -208,6 +218,9 @@ li{
     
 
 .footer__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     color: rgb(27, 16, 27);
     padding: 10px;
     font-size: 20px;
@@ -222,22 +235,20 @@ li{
 }
 
 
-.footer__logo{
-    width: 50px;
-    height: 60px;
-}
-
-
 .footer__redes{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px;
    
     
 }
+
+
 .footer{
     background-color: rgb(197, 231, 243);
 }
+
 
 .footer__derechos{
     text-align: center;
