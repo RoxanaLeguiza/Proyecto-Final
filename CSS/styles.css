@@ -29,8 +29,6 @@ body{
 .encabezdo__navegador{
     display: flex;
     flex-flow: row nowrap;
-
-
 }
 
 
@@ -43,8 +41,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end
-
- 
 }
 
 a:visited{
@@ -215,18 +211,42 @@ li{
     
 }
 
+.footer{
+    background-color: rgb(197, 231, 243);
+
+}
+
+.footer__contenedor{
+    display: flex;
+}
+
+
+.footer__nosotros{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color: rgb(27, 16, 27);
+    padding: 10px;
+    font-size: 20px;  
+}
     
 
 .footer__contacto{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    width: 40%;
     color: rgb(27, 16, 27);
     padding: 10px;
     font-size: 20px;
  
     
 }
+
+.footer__contacto__titulo{
+    text-align: center;
+}
+
 
 .footer__contacto__mail{
     color: rgb(27, 17, 27);
@@ -239,15 +259,13 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 40%;
     padding: 10px;
    
     
 }
 
 
-.footer{
-    background-color: rgb(197, 231, 243);
-}
 
 
 .footer__derechos{
@@ -257,11 +275,13 @@ li{
     font-size: 100%;
 }
 
+
 /*aplica flex*/
 
 .seccion__productos{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding: 10px;
     margin: 20px;
 }
@@ -350,26 +370,44 @@ li{
 
 }
 
-/*mobile*/
-@media(min-width:1024px){
-    body{
-        background: rgb(227, 230, 235);
-    }
-
-}
-    
-
-    
+/*responsive*/
+   
 @media (min-width:481px) and (max-whith: 1023px) {
       body{
         background: rgb(143, 147, 153);
       }
       .encabezado{
           width: 500px;
+         
       }
-
-
+      .navegador__lista{
+        display: flex;
+        flex-direction: column;
+      }
 }
 
+
+@media(min-width:1024px){
+    body{
+        background: rgb(227, 230, 235);
+    }
+    
+
+}
+@media(max-width:480px){
+    .encabezado__logotipo{
+        font-size: 30px;
+    }
+
+    .navegador__lista{
+       display: flex;
+       flex-direction: column;
+        
+
+    }
+    
+      
+    
+}
 
 
